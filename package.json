@@ -48,5 +48,8 @@
     "typescript": "3.1.1",
     "zone.js": "^0.8.29"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@laurentgoudet/agm-core": "^1.0.0-beta.5-fix-universal"
+  }
 }
