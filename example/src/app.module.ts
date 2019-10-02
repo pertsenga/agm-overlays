@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core"
 import { BrowserModule } from '@angular/platform-browser'
-import { AgmCoreModule } from "@agm/core"
+import { AgmCoreModule } from "@laurentgoudet/agm-core"
 import { AppComponent } from "./app.component"
 import { AgmJsMarkerClustererModule } from '@agm/js-marker-clusterer';
 

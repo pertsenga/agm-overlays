@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var core_2 = require("@agm/core");
+var agm_core_1 = require("@laurentgoudet/agm-core");
 var AgmOverlay = (function () {
     function AgmOverlay(_mapsWrapper, _markerManager) {
         this._mapsWrapper = _mapsWrapper;
@@ -198,7 +198,7 @@ var AgmOverlay = (function () {
         __metadata("design:type", Boolean)
     ], AgmOverlay.prototype, "openInfoWindow", void 0);
     __decorate([
-        core_1.ContentChildren(core_2.AgmInfoWindow),
+        core_1.ContentChildren(agm_core_1.AgmInfoWindow),
         __metadata("design:type", core_1.QueryList)
     ], AgmOverlay.prototype, "infoWindow", void 0);
     __decorate([
@@ -214,8 +214,8 @@ var AgmOverlay = (function () {
             selector: "agm-overlay",
             template: '<div #content><div style="position:absolute"><ng-content></ng-content></div></div>'
         }),
-        __metadata("design:paramtypes", [core_2.GoogleMapsAPIWrapper,
-            core_2.MarkerManager])
+        __metadata("design:paramtypes", [agm_core_1.GoogleMapsAPIWrapper,
+            agm_core_1.MarkerManager])
     ], AgmOverlay);
     return AgmOverlay;
 }());

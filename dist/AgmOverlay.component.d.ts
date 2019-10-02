@@ -1,5 +1,5 @@
 import { EventEmitter, ElementRef, QueryList } from "@angular/core";
-import { AgmInfoWindow, MarkerManager, GoogleMapsAPIWrapper } from "@agm/core";
+import { AgmInfoWindow, MarkerManager, GoogleMapsAPIWrapper } from "@laurentgoudet/agm-core";
 export interface latLng {
     latitude: number;
     longitude: number;
