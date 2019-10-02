@@ -9,9 +9,9 @@ import {
 import {
   AgmInfoWindow, LatLngBounds, LatLng, MarkerManager,
   GoogleMapsAPIWrapper, AgmMarker
-} from "@agm/core"
+} from "@laurentgoudet/agm-core"
 
-import { GoogleMap } from "@agm/core/services/google-maps-types"
+import { GoogleMap } from "@laurentgoudet/agm-core/services/google-maps-types"
 declare var google: any
 
 export interface latLng{
